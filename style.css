@@ -1,0 +1,75 @@
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .chat {
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .input-container {
+        display: flex;
+        margin-bottom: 10px;
+      }
+
+      .input-text {
+        flex: 1;
+        padding: 5px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+      }
+
+      .input-button {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+      }
+
+      .response {
+        background-color: #e6e6e6;
+        border-radius: 5px;
+        padding: 10px;
+      }
+
+      .response-text {
+        margin: 0;
+        padding: 5px;
+      }
+
+      .copy-button {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+        float: right;
+      }
+    

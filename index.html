@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE Grupo 5: Proyecto Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="myscripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>ONE Grupo 5: Proyecto Encriptador de Texto</h1>
+    </header>
+
+    <div class="container">
+      <div class="input-container">
+        <label>
+          <input type="radio" name="action" id="encryptRadio" checked />
+          Encriptar
+        </label>
+        <label>
+          <input type="radio" name="action" id="decryptRadio" /> Desencriptar
+        </label>
+      </div>
+
+      <div class="input-container">
+        <input
+          type="text"
+          id="inputBox"
+          class="input-text"
+          placeholder="Escribe tu mensaje..."
+        />
+        <button class="input-button" onclick="processMessage()">Enviar</button>
+      </div>
+
+      <div id="responseBox" class="chat">
+        <!-- Aquí se mostrará la respuesta cifrada o descifrada -->
+      </div>
+
+      <button class="copy-button" onclick="copyResponse()">
+        Copiar respuesta
+      </button>
+      <p>&nbsp;</p>
+    </div>
+
+    <footer>
+      <p>2023 by Daniel Ramos (ramosvd@gmail.com).</p>
+    </footer>
+  </body>
+</html>
